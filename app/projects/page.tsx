@@ -179,7 +179,7 @@ export default async function About() {
                                                                         {
                                                                             data.hasOwnProperty("img") && 
                                                                             <div id = "project-img">
-                                                                                <Image src = { data.img } className = "d-block w-100 h-100" width = {100} height = {100} alt = { project.title }/> 
+                                                                                <Image src = { data.img } className = "d-block w-100 h-100" width = {100} height = {100} alt = { project.title } unoptimized = {true}/> 
                                                                             </div>
                                                                         }
                                                                         {
