@@ -46,7 +46,7 @@ export default async function About() {
                                                         return (
                                                             <div key = {project} className = "col mb-3 px-3">
                                                                 <div className ="card h-100" style = {{ border: `none` }} data-bs-toggle = "modal" data-bs-target = { "#" +  project.link }>
-                                                                    <Image src = { project.img } className ="card-img-top image-fluid" alt = { project.title }/>
+                                                                    <Image src = { project.img } className ="card-img-top image-fluid" width = {100} height = {75} alt = { project.title }/>
                                                                     <div className = "card-body text-center">
                                                                         <h4 className = "card-title mb-2">{ project.title }</h4>
                                                                         <p id = "attribute" className = "card-text d-inline-flex text-secondary mb-1 me-1">{ project.language }</p>
@@ -94,7 +94,7 @@ export default async function About() {
                                                     return (
                                                         <div key = {project} className = "col mb-3 px-3">
                                                             <div className ="card h-100" style = {{ border: `none` }} data-bs-toggle = "modal" data-bs-target = { "#" +  project.link }>
-                                                                <Image src = { project.img } className ="card-img-top image-fluid" alt = { project.title } />
+                                                                <Image src = { project.img } className ="card-img-top image-fluid" width = {100} height = {75} alt = { project.title } />
                                                                 <div className = "card-body text-center">
                                                                     <h4 className = "card-title mb-2">{ project.title }</h4>
                                                                     <p id = "attribute" className = "card-text d-inline-flex text-secondary mb-1 me-1">{ project.language }</p>
@@ -179,7 +179,7 @@ export default async function About() {
                                                                         {
                                                                             data.hasOwnProperty("img") && 
                                                                             <div id = "project-img">
-                                                                                <Image src = { data.img } className = "d-block w-100 h-100" alt = { project.title }/> 
+                                                                                <Image src = { data.img } className = "d-block w-100 h-100" width = {100} height = {100} alt = { project.title }/> 
                                                                             </div>
                                                                         }
                                                                         {
