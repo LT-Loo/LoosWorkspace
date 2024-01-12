@@ -2,11 +2,6 @@
 
 import localFont from '@next/font/local';
 
-// const zapfino = localFont({
-//   src: '../public/fonts/Zapfino.ttf',
-//   variable: '--font-zapfino'
-// });
-
 export default async function Home() {
 
   return (
