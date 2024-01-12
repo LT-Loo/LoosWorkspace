@@ -1,0 +1,231 @@
+{
+    "web": [
+        {
+            "title": "Foodies",
+            "category": "Web",
+            "language": "PHP",
+            "framework": "Laravel",
+            "database": "SQLite",
+            "description": "Food ordering web portal",
+            "img": "images/Foodies/Home - Not Login.png" ,
+            "link": "foodies",  
+            "details": [
+                {
+                    "img": "images/Foodies/Home - Not Login.png",
+                    "desc": "A food ordering portal developed using the Laravel framework. The database management system is implemented through SQLite, ensuring efficient data storge and retrieval. Users can register either as customers or restaurant owners." 
+                }, {
+                    "img": "images/Foodies/Menu - Customer.png",
+                    "desc": "Customers can browse the menu of participating restaurants."
+                }, {
+                    "img": "images/Foodies/Dish Detail - Customer.png",
+                    "desc": "Customers have the option to not only order food and share dish reviews but also to enhance their experience by saving preferred dishes to their Favourite List."
+                }, {
+                    "img": "images/Foodies/Cart.png",
+                    "desc": "Selecting the cart icon on the navigation bar will reveal a list of dishes that have been added to the cart."
+                }, {
+                    "img": "images/Foodies/Order Confirm - Customer.png",
+                    "desc": "The Order Confirmation Page enables customers to review their order details prior to finalising the purchase."
+                }, {
+                    "img": "images/Foodies/My Favourite.png",
+                    "desc": "Selecting the heart icon in the navigation bar will bring users to the Favourite Dish Page, where they can view a curated list of all the dishes they have saved as favourites."
+                }, {
+                    "img": "images/Foodies/Edit Dish - Restaurant.png",
+                    "desc": "Restaurant owners can add or modify dish details in their menu, while also receiving customer orders."
+                }, {
+                    "img": "images/Foodies/Order Details - Restaurant.png",
+                    "desc": "Restaurant owners can add or modify dish details in their menu, while also receiving customer orders."
+                }, {
+                    "title": "Special Feature - Dish Recommendation",
+                    "img": "images/Foodies/Home - Customer.png",
+                    "desc": "Users who have five or more dishes saved in their Favourite List will get personalised dish recommendations tailored to their preferences. A scoring system is implemented to generate the list. Scores are assigned to each dish based on its likeness to those saved in the Favourite List. The top five dishes with the highest scores will be recommended to the users. This feature aims to provide a delightful user experience that aligns seamlessly with the user's taste profile."
+                }, {
+                    "title": "Special Feature - Top 5 Popular Dishes",
+                    "img": "images/Foodies/Top 5.png",
+                    "desc": "This page provides the top five most sought-after dishes ordered within the past 30 days, accompanied by the corresponding number of orders each dish has received during this period."
+                }, {
+                    "title": "Special Feature - Admin",
+                    "img": "images/Foodies/New Restaurants - Admin.png",
+                    "desc": "The admin user type serves a unique role, focused on the approval process for newly registered restaurant owners. Only after receiving approval from admins can restaurant owners gain permission to create dish menus. The image above shows a page designed specifically for admins, presenting a list of new restaurant accounts awaiting approval."
+                }
+            ]
+        }, {
+            "title": "Chatroom",
+            "category": "Web",
+            "language": "JavaScript - Node.js",
+            "framework": "Angular",
+            "database": "MongoDB",
+            "description": "Realtime group communication chat system",
+            "img": "images/Chatroom/Chat.png",
+            "link": "chatroom",
+            "details": [
+                {
+                    "img": "images/Chatroom/Login.png",
+                    "desc": "This chat system facilitates real-time communication among users across various groups and channels through the integration of sockets. The implementation of sockets ensures reliable data exchange, providing an enhanced user experience for interactive channel-based conversations." 
+                }, {
+                    "img": "images/Chatroom/Home.png",
+                    "desc": "The User Home Page displays user information along with a list of the groups the user is a part of."
+                }, {
+                    "img": "images/Chatroom/Account Setting.png",
+                    "desc": "Users can update their profile pictures and modify their account passwords by clicking on the Settings button."
+                }, {
+                    "img": "images/Chatroom/Group.png",
+                    "desc": "Regular users can only access channels they are part of, whereas those with admin roles are automatically granted membership to all channels within the group."
+                }, {
+                    "img": "images/Chatroom/Chat.png",
+                    "desc": "Once users enter a channel, they can communicate with each other by sending messages or images."
+                }, {
+                    "img": "images/Chatroom/Role Permission.png",
+                    "title": "User Roles and Permissions",
+                    "desc": "Users are allocated different roles and permissions based on their respective user types."
+                }
+            ]    
+        }
+    ], 
+
+    "apiDatabase": [
+        {
+            "title": "Light Pentesting Tool",
+            "category": "API & Database",
+            "language": "Python",
+            "framework": "FastAPI",
+            "database": "PostgreSQL",
+            "description": "Scan and detect vulnerabilities of software applications",
+            "img": "images/Light Pentesting Tool/API.png",
+            "link": "lightPentestingTool",
+            "file": "/documents/Light Pentesting Tool Documentation.pdf"
+        }
+    ], 
+    
+    "mobile": [
+        {
+            "title": "Lifestyle",
+            "category": "Mobile Application",
+            "language": "JavaScript - Node.js",
+            "framework": "Ionic 5",
+            "description": "A digital diary and goal journal",
+            "img": "images/Lifestyle/Cover.png",
+            "link": "lifestyle",
+            "file": "documents/Lifestyle Documentation.pdf",
+            "video": "videos/Lifestyle Demo.mp4"  
+        }
+    ], 
+    
+    "game": [
+        {
+            "title": "Pac-Man Game",
+            "category": "Game",
+            "language": "Python",
+            "description": "Retro arcade game",
+            "img": "images/Pacman/Cover.png",
+            "link": "pacman",
+            "details": [
+                {
+                    "img": "images/Pacman/Intro.png",
+                    "desc": "In this dynamic maze action video game, players take on the role of Pac-Man, navigating enclosed maze to devour all pellets scattered throughout while evading the pursuit of the ghosts." 
+                }, {
+                    "img": "images/PacMan/Power Pellet Effect.gif",
+                    "desc": "Consuming Power Pellets provides a temporary boost to PacMan, enabling it to devour ghosts and earn bonus points."
+                }, {
+                    "title": "Special Feature - Random Maze Generation",
+                    "vid": "videos/Maze Generation.mp4",
+                    "desc": "The game features two distinct map options: the default map and the random map. The latter incorporates a sophisticated maze generator, implementing the iterative randomized depth-first search algorithm. The algorithm enhances the gaming experience by dynamically creating unique and challenging mazes, adding an element of excitement for players."
+                }, {
+                    "title": "Special Feature - Ghost Behaviour",
+                    "img": "images/PacMan/Smart Ghost.gif",
+                    "desc": "There are two types of ghosts in the game: the red ghost, which roams the maze aimlessly, and the pink ghost, tasked with actively pursuing PacMan. When the red ghost encounters an intersection point, it autonomously selects a random available path and committs to its chosen direction. Meanwhile, the pink ghost employs a tracking mechanism, which is designed based on the A* search algorithm, to calculate and pursue the shortest path to reach PacMan efficiently."
+                }
+            ]   
+        }, {
+            "title": "Galaga Game",
+            "category": "Game",
+            "language": "JavaScript - P5.js",
+            "description": "Classic space shooting game",
+            "img": "images/Galaga/Cover.png",
+            "link": "galaga",
+            "details": [
+                {
+                    "img": "images/Galaga/Intro.png",
+                    "desc": "This is a space shooting arcade video game where player mans a space fighter and shoots down enemies called the Galaga force. Colliding with aliens will result in a life being lost. Movement of space fighter is controlled using the arrow keys." 
+                }, {
+                    "img": "images/Galaga/Aircraft.png",
+                    "desc": "Players can choose their preferred space fighter before starting the game. Each space fighter comes with unique strengths and characteristics, allowing players to tailor their gameplay experience to suit their strategic preferences."
+                }, {
+                    "vid": "videos/Galaga Demo.mp4",
+                    "title": "Galaga Game Demo"
+                }
+            ]   
+        }, {
+            "title": "Match 3 Game",
+            "category": "Game",
+            "language": "C Language",
+            "description": "A simplified version of Candy Crush",
+            "img": "images/Match-3/Cover.png",
+            "link": "match3",
+            "details": [
+                {
+                    "vid": "videos/Match 3 Demo.mp4",
+                    "desc": "This is an n x n board game in which every cell contains one symbol. The task of the player is to score points by continuously swapping two adjacent symbols within a time limit such that three or more identical symbols are directly adjacent in a row or a column. A swap that does not achieve this will not be executed. Player needs to enter the cell coordinates into the program to swap a pair of adjacent symbols." 
+                }
+            ] 
+        }
+    ], 
+    
+    "clientServer": [
+        {
+            "title": "Number Game",
+            "category": "Client-Server System",
+            "language": "C Language",
+            "environment": "UNIX - Cygwin",
+            "description": "Establish communication system between multiple independent programs through a network",
+            "img": "images/Number/Cover.png",
+            "link": "numberGame",
+            "details": [
+                {
+                    "img": "images/Number/Cover.png",
+                    "desc": "This is a client-server system that runs a simple multiplayer game. Players take turns to enter a number between 1 and 9, and the input number will be added into the score, which is the sum of all input numbers previously selected by all players. The first player to get a total of 30 scores or more wins the game." 
+                }, {
+                    "img": "images/Number/Software Design.png",
+                    "title": "Software Design",
+                    "desc": "Communication system is developed using sockets. Protocols are established between server and players to achieve smooth communication and efficient data transfer."
+                }
+            ]   
+        }
+    ],
+    
+    "intelligentSys":
+    [
+        {
+            "title": "Rush Hour Game",
+            "category": "Intelligent System",
+            "language": "Python",
+            "algorithm": ["Search Algorithms"],
+            "description": "An intelligent agent to solve puzzle games by implementing various search algorithms",
+            "img": "images/Rush Hour/Cover.png",
+            "link": "rushHourGame",
+            "details": [
+                {
+                    "img": "images/Rush Hour/Cover.png",
+                    "desc": "This intelligent agent is designed to explore optimal solutions in the Rush Hour puzzle game. The program incorporates a range of search algorithms, including Breadth-First Search (BFS), Iterative Deepening Depth-Limited Search (IDDLS), A* Search with a hueristic approach, and Hill Climbing Search with Random Restart and Greedy Search strategies.<br><br>The study involves an examination and comparison of the properties and efficiency of each algorithm in the search for solutions." 
+                }
+            ]   
+        }, {
+            "title": "Machine Learning Project",
+            "category": "Intelligent System",
+            "language": "Python",
+            "algorithm": ["K-Neighbour", "Neural Network", "Decision Tree"],
+            "description": "Implementation of supervised learning algorithms on real-world datasets",
+            "img": "images/Machine Learning/Cover.png",
+            "link": "machineLearning",
+            "details": [
+                {
+                    "img": "images/Machine Learning/Cover.png",
+                    "desc": "The primary goal of this project is to investigate the characteristics of various learning algorithms and assess the performance they achieved with given datasets. Additionally, the project aims to analyse and compare the learning curves and prediction accuracy exhibited by each algorithm." 
+                }, {
+                    "img": "images/Machine Learning/Cover.png",
+                    "title": "Learning Algorithms",
+                    "desc": "<ul><li><b>K-Nearest Neighbours (KNN)</b> using various distance functions such as Euclidean distance, Manhattan distance, and squared distance</li><li><b>Decision Tree</b></li><li><b>Neural Network</b> using quadratic cost function and cross entropy cost function</li></ul>"
+                }
+            ]   
+        }  
+    ] 
+}
