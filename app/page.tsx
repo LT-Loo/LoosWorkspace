@@ -1,15 +1,18 @@
 // Home Page
 
 import {promises as fs} from 'fs';
+import localFont from 'next/font/local';
 
 export default async function Home() {
+  const zapfino = localFont({ src: '../public/fonts/Zapfino.ttf'});
+
   const file = await fs.readFile(process.cwd() + "/app/projects.json", "utf8");
   const projects = JSON.parse(file);
 
   return (
     <div id = "home" className = "container-fluid text-center position-relative">
       <div className = "position-absolute start-50 top-50 translate-middle w-100">
-        <h1 id = "web-title">Loo&apos;s Workspace</h1>
+        <h1 id = "web-title" className = { zapfino.className }>Loo&apos;s Workspace</h1>
         <p id = "intro" className = "mb-4 fs-5">
           Hello! This is <b>LOO</b><br/>
           Computer Science graduate<br/>
