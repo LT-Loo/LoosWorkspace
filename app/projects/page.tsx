@@ -1,6 +1,7 @@
 // Project Page
 
 import {promises as fs} from 'fs';
+import Image from 'next/image';
 
 export default async function About() {
   const file = await fs.readFile(process.cwd() + "/app/projects.json", "utf8");
@@ -45,7 +46,7 @@ export default async function About() {
                                                         return (
                                                             <div key = {project} className = "col mb-3 px-3">
                                                                 <div className ="card h-100" style = {{ border: `none` }} data-bs-toggle = "modal" data-bs-target = { "#" +  project.link }>
-                                                                    <img src = { project.img } className ="card-img-top image-fluid" />
+                                                                    <Image src = { project.img } className ="card-img-top image-fluid" alt = { project.title }/>
                                                                     <div className = "card-body text-center">
                                                                         <h4 className = "card-title mb-2">{ project.title }</h4>
                                                                         <p id = "attribute" className = "card-text d-inline-flex text-secondary mb-1 me-1">{ project.language }</p>
@@ -93,7 +94,7 @@ export default async function About() {
                                                     return (
                                                         <div key = {project} className = "col mb-3 px-3">
                                                             <div className ="card h-100" style = {{ border: `none` }} data-bs-toggle = "modal" data-bs-target = { "#" +  project.link }>
-                                                                <img src = { project.img } className ="card-img-top image-fluid" />
+                                                                <Image src = { project.img } className ="card-img-top image-fluid" alt = { project.title } />
                                                                 <div className = "card-body text-center">
                                                                     <h4 className = "card-title mb-2">{ project.title }</h4>
                                                                     <p id = "attribute" className = "card-text d-inline-flex text-secondary mb-1 me-1">{ project.language }</p>
@@ -178,7 +179,7 @@ export default async function About() {
                                                                         {
                                                                             data.hasOwnProperty("img") && 
                                                                             <div id = "project-img">
-                                                                                <img src = { data.img } className = "d-block w-100 h-100"/> 
+                                                                                <Image src = { data.img } className = "d-block w-100 h-100" alt = { project.title }/> 
                                                                             </div>
                                                                         }
                                                                         {

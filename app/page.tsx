@@ -9,7 +9,7 @@ export default async function Home() {
   return (
     <div id = "home" className = "container-fluid text-center position-relative">
       <div className = "position-absolute start-50 top-50 translate-middle w-100">
-        <h1 id = "web-title">Loo's Workspace</h1>
+        <h1 id = "web-title">Loo&apos;s Workspace</h1>
         <p id = "intro" className = "mb-4 fs-5">
           Hello! This is <b>LOO</b><br/>
           Computer Science graduate<br/>
@@ -28,7 +28,7 @@ export default async function Home() {
       </div>
 
       <footer className = "fs-6 position-absolute bottom-0 start-50 translate-middle-x">
-        <p>Background image by upklyak on Freepik<br/>&copy 2024 Loo's Workspace</p>
+        <p>Background image by upklyak on Freepik<br/>&copy 2024 Loo&apos;s Workspace</p>
       </footer>
     </div>  
     
