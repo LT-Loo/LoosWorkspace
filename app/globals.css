@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: Staccato;
-  src: ('/fonts/TT0610M_.TTF');
+  src: url('/fonts/TT0610M_.TTF');
 }
 
 body::-webkit-scrollbar {
@@ -15,7 +15,7 @@ body::-webkit-scrollbar {
 #main-container {
   height: 100%;
   min-height: 100vh;
-  background-image: url("/images/NightBackground.jpg");
+  background: url('/LoosWorkspace/images/NightBackground.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
