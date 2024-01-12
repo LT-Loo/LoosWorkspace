@@ -23,7 +23,7 @@ export default async function Home() {
         <br/>
         <p id = "contact-info">
           <a href = "mailto:loo.workspace@gmail.com" className = "email-link-text fs-5" target="_blank" rel="noopener noreferrer"><i className = "bi bi-envelope"></i> loo.workspace@gmail.com</a>&emsp;&emsp;
-          <a href = "https://www.linkedin.com/in/lertheng-loo/" className = "fs-5" target="_blank" rel="noopener noreferrer"><i className = "bi bi-linkedin"></i> linkedin.com/in/lertheng-loo/</a>
+          <a href = "https://www.linkedin.com/in/lt-loo/" className = "fs-5" target="_blank" rel="noopener noreferrer"><i className = "bi bi-linkedin"></i> linkedin.com/in/lt-loo/</a>
         </p>
       </div>
 
