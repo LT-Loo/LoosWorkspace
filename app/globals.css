@@ -1,11 +1,11 @@
 @font-face {
   font-family: Zapfino;
-  src: "../public/fonts/Zapfino.ttf";
+  src: url('/fonts/Zapfino.ttf') format('truetype');
 }
 
 @font-face {
   font-family: Staccato;
-  src: "../public/fonts/TT0610M_.ttf";
+  src: ('/fonts/TT0610M_.TTF');
 }
 
 body::-webkit-scrollbar {
