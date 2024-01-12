@@ -5,10 +5,10 @@ This website is a showcase of my skills, projects, and experiences in software d
 ## Framework
 This website is built with <b>Next.js</b> and <b>Bootstrap</b>.
 
-## Acknowledgements
+## Acknowledgement
 Background image provided by upklyak on Freepik.
 
 ## Contact
 Feel free to contact me for any inquiries or collaborations:
 - Email: loo.workspace@gmail.com
-- LinkedIn: linkedin.com/in/lt-loo/
+- LinkedIn: [linkedin.com/in/lt-loo/](linkedin.com/in/lt-loo/)
