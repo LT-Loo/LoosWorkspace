@@ -6,8 +6,6 @@ import localFont from 'next/font/local';
 const zapfino = localFont({ src: '../public/fonts/Zapfino.ttf'});
 
 export default async function Home() {
-  const file = await fs.readFile(process.cwd() + "/app/projects.json", "utf8");
-  const projects = JSON.parse(file);
 
   return (
     <div id = "home" className = "container-fluid text-center position-relative">

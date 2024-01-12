@@ -92,7 +92,7 @@
             "description": "Scan and detect vulnerabilities of software applications",
             "img": "images/Light Pentesting Tool/API.png",
             "link": "lightPentestingTool",
-            "file": "/documents/Light Pentesting Tool Documentation.pdf"
+            "file": "documents/Light Pentesting Tool Documentation.pdf"
         }
     ], 
     
