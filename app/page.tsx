@@ -3,9 +3,9 @@
 import {promises as fs} from 'fs';
 import localFont from 'next/font/local';
 
-export default async function Home() {
-  const zapfino = localFont({ src: '../public/fonts/Zapfino.ttf'});
+const zapfino = localFont({ src: '../public/fonts/Zapfino.ttf'});
 
+export default async function Home() {
   const file = await fs.readFile(process.cwd() + "/app/projects.json", "utf8");
   const projects = JSON.parse(file);
 
