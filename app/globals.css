@@ -1,11 +1,11 @@
 @font-face {
   font-family: Zapfino;
-  src: url('../public/fonts/Zapfino.ttf');
+  src: "../public/fonts/Zapfino.ttf";
 }
 
 @font-face {
   font-family: Staccato;
-  src: url('../public/fonts/TT0610M_.ttf');
+  src: "../public/fonts/TT0610M_.ttf";
 }
 
 body::-webkit-scrollbar {
@@ -15,7 +15,7 @@ body::-webkit-scrollbar {
 #main-container {
   height: 100%;
   min-height: 100vh;
-  background-image: url('../public/images/Night Background.jpg');
+  background-image: "../public/images/Night Background.jpg";
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
