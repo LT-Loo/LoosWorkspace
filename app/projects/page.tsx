@@ -162,13 +162,13 @@ export default async function About() {
                                             <div id = { "project-details-" + project.link } className = "row carousel slide carousel-fade justify-content-center">
                                                 {
                                                     project.details.length > 1 &&
-                                                    <div className = "col-md-1 col-lg-1 position-relative">
+                                                    <div className = "col-1 position-relative">
                                                         <button id = "prev-control" className = "carousel-control" type = "button" data-bs-target = { "#project-details-" + project.link }  data-bs-slide = "prev">
                                                             <span className = "carousel-control-prev-icon"></span>
                                                         </button>
                                                     </div>
                                                 }
-                                                <div className = "col-md-10 col-lg-7 h-100 p-0">
+                                                <div className = "col-10 col-lg-7 h-100 p-0">
                                                     <div className = "carousel-inner h-100">
                                                         {
                                                             project.details.map((data:any) => {
@@ -207,7 +207,7 @@ export default async function About() {
                                                 </div>
                                                 {
                                                     project.details.length > 1 &&
-                                                    <div className = "col-md-1 col-lg-1 position-relative">
+                                                    <div className = "col-1 position-relative">
                                                         <button id = "next-control" className = "carousel-control" type = "button" data-bs-target = { "#project-details-" + project.link }  data-bs-slide = "next">
                                                             <span className = "carousel-control-next-icon"></span>
                                                         </button>

@@ -37,7 +37,7 @@
                 }, {
                     "title": "Special Feature - Dish Recommendation",
                     "img": "images/Foodies/Home - Customer.png",
-                    "desc": "Users who have five or more dishes saved in their Favourite List will get personalised dish recommendations tailored to their preferences. A scoring system is implemented to generate the list. Scores are assigned to each dish based on its likeness to those saved in the Favourite List. The top five dishes with the highest scores will be recommended to the users. This feature aims to provide a delightful user experience that aligns seamlessly with the user's taste profile."
+                    "desc": "Users who have five or more dishes saved in their Favourite List will get personalised dish recommendations tailored to their preferences. A scoring system is implemented to generate the list. Scores are assigned to each dish based on its likeness to those saved in the Favourite List. The top five dishes with the highest scores will be recommended to the users. This feature aims to provide a delightful user experience that aligns with the user's taste profile."
                 }, {
                     "title": "Special Feature - Top 5 Popular Dishes",
                     "img": "images/Foodies/Top 5.png",
