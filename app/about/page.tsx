@@ -66,7 +66,7 @@ export default async function About() {
         <div className = "modal fade" id = { lpt.link } tabIndex = {-1}>
             <div className = "modal-dialog modal-fullscreen modal-dialog-centered">
                 <div className = "modal-content">
-                    <div className = "modal-header text-center" style = {{ border: `none` }}>
+                    <div className = "modal-header text-center position-relative" style = {{ border: `none` }}>
                         <h1 id = "project-title" className = "fw-5 fs-2 mt-3 w-100">{ lpt.title }</h1>
                         <button type = "button" id = "back-btn" className = "btn position-absolute end-0 top-50 translate-middle-y pe-4 pt-3" data-bs-dismiss = "modal">CLOSE</button>
                     </div>
