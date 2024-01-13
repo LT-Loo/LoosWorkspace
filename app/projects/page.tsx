@@ -183,6 +183,12 @@ export default async function About() {
                                                                             </div>
                                                                         }
                                                                         {
+                                                                            data.hasOwnProperty("gif") && 
+                                                                            <div id = "project-img">
+                                                                                <img src = { data.img } className = "d-block w-100 h-100" alt = { project.title }/> 
+                                                                            </div>
+                                                                        }
+                                                                        {
                                                                             data.hasOwnProperty("vid") &&
                                                                             <div id = "project-img" className = "media">
                                                                                 <div className = "media-body h-100 position-relative">

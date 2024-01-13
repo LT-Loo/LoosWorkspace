@@ -123,7 +123,7 @@
                     "img": "images/Pacman/Intro.png",
                     "desc": "In this dynamic maze action video game, players take on the role of Pac-Man, navigating enclosed maze to devour all pellets scattered throughout while evading the pursuit of the ghosts." 
                 }, {
-                    "img": "images/PacMan/PowerPelletEffect.gif",
+                    "gif": "images/PacMan/PowerPelletEffect.gif",
                     "desc": "Consuming Power Pellets provides a temporary boost to PacMan, enabling it to devour ghosts and earn bonus points."
                 }, {
                     "title": "Special Feature - Random Maze Generation",
@@ -131,7 +131,7 @@
                     "desc": "The game features two distinct map options: the default map and the random map. The latter incorporates a sophisticated maze generator, implementing the iterative randomized depth-first search algorithm. The algorithm enhances the gaming experience by dynamically creating unique and challenging mazes, adding an element of excitement for players."
                 }, {
                     "title": "Special Feature - Ghost Behaviour",
-                    "img": "images/PacMan/SmartGhost.gif",
+                    "gif": "images/PacMan/SmartGhost.gif",
                     "desc": "There are two types of ghosts in the game: the red ghost, which roams the maze aimlessly, and the pink ghost, tasked with actively pursuing PacMan. When the red ghost encounters an intersection point, it autonomously selects a random available path and committs to its chosen direction. Meanwhile, the pink ghost employs a tracking mechanism, which is designed based on the A* search algorithm, to calculate and pursue the shortest path to reach PacMan efficiently."
                 }
             ]   
