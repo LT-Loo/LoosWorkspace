@@ -1,7 +1,5 @@
 // Home Page
 
-import localFont from '@next/font/local';
-
 export default async function Home() {
 
   return (
