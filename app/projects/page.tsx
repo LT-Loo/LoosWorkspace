@@ -9,10 +9,10 @@ export default async function About() {
 
   return (
     <div id = "project-container" className = "container h-100 ">
-        <div className = "row">
+        <div className = "d-sm-flex">
             {/* Project Menu */}
-            <div className = "col-lg-2 col-md-3 p-0 position-fixed" id = "project-menu" role = "tablist">
-                <ul className = "nav nav-pills flex-column text-start">
+            {/* <div className = "d-flex col-sm col-lg-2 col-md-3 p-0 position-fixed" id = "project-menu" role = "tablist"> */}
+                <ul className = "nav nav-pills flex-column text-start flex-column col-lg-2 col-md-3 p-0 border"  id = "project-menu" role = "tablist">
                     <li className = "nav-item my-2 pe-md-2 pe-lg-0 me-lg-3">
                         <a className = "nav-link active py-1 me-0" data-bs-toggle = "tab" href = "#all">All</a>
                     </li>
@@ -26,10 +26,10 @@ export default async function About() {
                         })
                     }
                 </ul>
-            </div>
+            {/* </div> */}
 
             {/* Project List */}
-            <div className = "col-lg-10 col-md-9 offset-lg-2 offset-md-3">
+            <div className = "col-lg-10 col-md-9">
                 <div className = "row">
                     <div className = "tab-content" id = "projects">
                         <div className = "tab-pane fade show active" id = "all" role = "tabpanel" tabIndex = {0}>
@@ -40,7 +40,7 @@ export default async function About() {
                                             <div className = "row px-3 mb-2">
                                                 <h2 id = "category-name" className = "my-2 pt-1">{ category[0].category }</h2>
                                             </div>
-                                            <div id = "category" className = "row row-cols-lg-2 row-cols-md-1 mb-3">
+                                            <div id = "category" className = "row row-cols-lg-2 row-cols-1 mb-3">
                                                 {
                                                     Object.values(category).map((project:any) => {
                                                         return (
@@ -88,7 +88,7 @@ export default async function About() {
                                         <div className = "row px-3 mb-2">
                                                 <h2 id = "category-name" className = "my-2 pt-1">{ category[0].category }</h2>
                                             </div>
-                                        <div id = "category" className = "row row-cols-lg-2 row-cols-md-1 mb-3">
+                                        <div id = "category" className = "row row-cols-lg-2 row-cols-1 mb-3">
                                             {
                                                 Object.values(category).map((project:any) => {
                                                     return (
