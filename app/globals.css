@@ -42,7 +42,6 @@ body::-webkit-scrollbar {
 #home {
   height: 100vh;
   color: #cad6f2;
-  border: yellow solid 1px;
 }
 
 #web-title {
