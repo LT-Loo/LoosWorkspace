@@ -59,6 +59,17 @@ body::-webkit-scrollbar {
   font-weight: bold;
 }
 
+#contact-box {
+  background-color: rgba(202, 214, 242, 0.5);
+  width: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+  #contact-box {
+    width: 70%;
+  }
+}
+
 #contact-info a:link, a:visited{
   color: #f7f8f9;
   text-decoration: none;
@@ -82,8 +93,15 @@ body::-webkit-scrollbar {
 
 #about-me-container {
   background: rgba(202, 214, 242, 0.7);
-  height: 79%;
-  overflow-y: auto;
+  /* height: 79%; */
+  /* overflow-y: auto; */
+}
+
+@media screen and (max-width: 800px) {
+  #about-me-container {
+    height: 79%;
+    overflow-y: auto;
+  }
 }
 
 #about-me-container::-webkit-scrollbar {
@@ -106,6 +124,12 @@ body::-webkit-scrollbar {
   width: 63%;
   margin: auto;
   padding: 0px;
+}
+
+@media screen and (max-width: 1400px) {
+  #row-table {
+    width: 80%;
+  }
 }
 
 .table td {
@@ -152,17 +176,20 @@ body::-webkit-scrollbar {
 
 #view-project {
   font-family: Arial, Helvetica, sans-serif;
-  border: none;
+  border-radius: 10px;
   background-color: transparent;
-  color: rgb(6, 6, 94);
+  color: rgb(17, 44, 197);
+  border: rgb(17, 44, 197) solid 1.5px;
 }
 
 #view-project:hover{
-  color: rgb(42, 47, 137);
+  color: rgb(52, 56, 151);
+  border: rgb(52, 56, 151) solid 1.5px;
 }
 
 #view-project:active{
-  color: rgb(17, 44, 197);
+  color: rgb(6, 6, 94);
+  border: rgb(6, 6, 94) solid 1.5px;
 }
 
 

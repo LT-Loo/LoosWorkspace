@@ -16,20 +16,15 @@ export default async function Home() {
           Software | API | Web | Mobile Apps | Client-Server | Game | Database
         </p>
         <h5 className = "mt-4 fs-4"><i>Open for freelance projects</i></h5>
-        <br/>
-        <p id = "contact-info">
-          
-          <div className = "row justify-content-center px-lg-5">
-            <div className = "col-sm col-lg-3 col-md-5">
-              <a href = "mailto:loo.workspace@gmail.com" className = "email-link-text fs-5" target="_blank" rel="noopener noreferrer"><i className = "bi bi-envelope"></i> loo.workspace@gmail.com</a>
-              {/* &emsp;&emsp; */}
-            </div>
-            <div className = "col-sm col-lg-3 col-md-5">
-              <a href = "https://www.linkedin.com/in/lt-loo/" className = "fs-5" target="_blank" rel="noopener noreferrer"><i className = "bi bi-linkedin"></i> linkedin.com/in/lt-loo/</a>  
-            </div>
+        <br/>         
+        <div id = "contact-box" className = "row row-cols-auto justify-content-center m-auto py-3">
+          <div id = "contact-info" className = "col">
+            <a href = "mailto:loo.workspace@gmail.com" className = "email-link-text fs-5 text-nowrap" target="_blank" rel="noopener noreferrer"><i className = "bi bi-envelope"></i> loo.workspace@gmail.com</a>
           </div>
-          
-        </p>
+          <div id = "contact-info" className = "col">
+            <a href = "https://www.linkedin.com/in/lt-loo/" className = "fs-5 text-nowrap" target="_blank" rel="noopener noreferrer"><i className = "bi bi-linkedin"></i> linkedin.com/in/lt-loo/</a>  
+          </div>
+        </div>
       </div>
 
       <footer className = "fs-6 position-absolute bottom-0 start-50 translate-middle-x">

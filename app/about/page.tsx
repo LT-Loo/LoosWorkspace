@@ -8,7 +8,7 @@ export default async function About() {
 
   return (
     <div id = "about-me" className = "container vh-100 position-relative">
-        <div id = "about-me-container" className = "container pt-4 pb-2 position-absolute top-50 start-50 translate-middle">
+        <div id = "about-me-container" className = "container pt-3 pb-2 position-absolute top-50 start-50 translate-middle">
             {/* Educational Background */}
             <div className = "row text-center">
                 <h3 id = "subtitle">Educational Background</h3>
@@ -40,7 +40,7 @@ export default async function About() {
                 <h3 id = "subtitle">Work Experience</h3>
             </div>
             <div id = "row-table" className = "row mt-2">
-                <table className = "table table-borderless">
+                <table className = "table table-borderless mb-0">
                     <tr>
                         <td id = "period"><p><b>Mac - Jun 2022</b></p></td>
                         <td id = "details">
@@ -53,7 +53,7 @@ export default async function About() {
                                 <li><b>PostgreSQL</b> database development and management</li>
                                 <li>Application containerisation via <b>Docker</b></li>
                             </ul>
-                            <button id = "view-project" className = "py-0 mb-0" type = "button" data-bs-toggle = "modal" data-bs-target = { "#" + lpt.link }>
+                            <button id = "view-project" className = "py-0 px-3 mb-0 ms-2 text-center" type = "button" data-bs-toggle = "modal" data-bs-target = { "#" + lpt.link }>
                                 View project &#9654;
                             </button>
                         </td>
