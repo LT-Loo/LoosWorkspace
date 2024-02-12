@@ -209,6 +209,10 @@ body::-webkit-scrollbar {
   }
 }
 
+#project-menu {
+  border: none;
+}
+
 #project-menu .nav-item .active, #project-menu .nav-item .active:hover {
   background-color: rgba(130, 148, 203, 0.7);
   color: #000000;
@@ -218,6 +222,8 @@ body::-webkit-scrollbar {
 #project-menu .nav-link{
   color: #7886ac;
   font-size: large;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 #project-menu .nav-link:hover {

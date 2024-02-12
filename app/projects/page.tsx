@@ -8,23 +8,25 @@ export default async function About() {
   const projects = JSON.parse(file);
 
   return (
-    <div id = "project-container" className = "container h-100 ">
-        <div className = "d-sm-flex">
+    <div id = "project-container" className = "container h-100">
+        <div className = "row">
             {/* Project Menu */}
-                <ul className = "nav nav-pills flex-column text-start flex-column col-lg-2 col-md-3 p-0" style = {{ border: `none` }} id = "project-menu" role = "tablist">
-                    <li className = "nav-item my-2 pe-md-2 pe-lg-0 me-lg-3">
+            <div className = "col-lg-2 col-md-3 p-0" id = "project-menu" role = "tablist">
+                <ul className = "nav nav-pills flex-column text-start w-100">
+                    <li className = "nav-item my-2 pe-md-2 pe-lg-0">
                         <a className = "nav-link active py-1 me-0" data-bs-toggle = "tab" href = "#all">All</a>
                     </li>
                     {
                         Object.entries(projects).map(([category, data]:any) => {
                             return (
-                                <li key = {category} className = "nav-item my-2 pe-md-2 pe-lg-0 me-lg-3">
+                                <li key = {category} className = "nav-item my-2 pe-md-2 pe-lg-0">
                                     <a className = "nav-link py-1 me-0" data-bs-toggle = "tab"  href = { "#" + category }>{ data[0].category }</a>
                                 </li>
                             )
                         })
                     }
                 </ul>
+            </div>
 
             {/* Project List */}
             <div className = "col-lg-10 col-md-9">
