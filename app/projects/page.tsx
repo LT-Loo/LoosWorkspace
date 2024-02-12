@@ -11,15 +11,15 @@ export default async function About() {
     <div id = "project-container" className = "container h-100">
         <div className = "row">
             {/* Project Menu */}
-            <div className = "col-lg-2 col-md-3 p-0" id = "project-menu" role = "tablist">
-                <ul className = "nav nav-pills flex-column text-start w-100">
-                    <li className = "nav-item my-2 pe-md-2 pe-lg-0">
+            <div className = "col-lg-2 col-md-3 p-0 position-fixed" id = "project-menu" role = "tablist">
+                <ul className = "nav nav-pills flex-column text-start">
+                    <li className = "nav-item my-2 pe-md-3 pe-lg-0">
                         <a className = "nav-link active py-1 me-0" data-bs-toggle = "tab" href = "#all">All</a>
                     </li>
                     {
                         Object.entries(projects).map(([category, data]:any) => {
                             return (
-                                <li key = {category} className = "nav-item my-2 pe-md-2 pe-lg-0">
+                                <li key = {category} className = "nav-item my-2 pe-md-3 pe-lg-0">
                                     <a className = "nav-link py-1 me-0" data-bs-toggle = "tab"  href = { "#" + category }>{ data[0].category }</a>
                                 </li>
                             )
@@ -29,7 +29,7 @@ export default async function About() {
             </div>
 
             {/* Project List */}
-            <div className = "col-lg-10 col-md-9">
+            <div className = "col-lg-10 col-md-9 offset-lg-2 offset-md-3">
                 <div className = "row">
                     <div className = "tab-content" id = "projects">
                         <div className = "tab-pane fade show active" id = "all" role = "tabpanel" tabIndex = {0}>
