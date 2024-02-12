@@ -13,13 +13,13 @@ export default async function About() {
             {/* Project Menu */}
             <div className = "col-lg-2 col-md-3 p-0 position-fixed" id = "project-menu" role = "tablist">
                 <ul className = "nav nav-pills flex-column text-start">
-                    <li className = "nav-item my-2 pe-md-3 pe-lg-0">
+                    <li className = "nav-item my-2 pe-md-4 pe-lg-0">
                         <a className = "nav-link active py-1 me-0" data-bs-toggle = "tab" href = "#all">All</a>
                     </li>
                     {
                         Object.entries(projects).map(([category, data]:any) => {
                             return (
-                                <li key = {category} className = "nav-item my-2 pe-md-3 pe-lg-0">
+                                <li key = {category} className = "nav-item my-2 pe-md-4 pe-lg-0">
                                     <a className = "nav-link py-1 me-0" data-bs-toggle = "tab"  href = { "#" + category }>{ data[0].category }</a>
                                 </li>
                             )
