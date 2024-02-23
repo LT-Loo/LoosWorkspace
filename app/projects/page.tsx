@@ -197,7 +197,7 @@ export default async function About() {
                                                                             }
                                                                             {
                                                                                 data.hasOwnProperty("desc") &&
-                                                                                <p id = "desc-data" dangerouslySetInnerHTML = {{ __html: data.desc }}></p>
+                                                                                <div id = "desc-data" dangerouslySetInnerHTML = {{ __html: data.desc }}></div>
                                                                             }
                                                                         </div>
                                                                     </div>

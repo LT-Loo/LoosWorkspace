@@ -14,6 +14,8 @@ export default async function Home() {
         </p>
         <p id = "scope" className = "fs-5">
           Software | API | Web | Mobile Apps | Client-Server | Game | Database
+          <br></br>
+          Python | JavaScript | C/C++ | PHP | TypeScript | Processing
         </p>
         <h5 className = "mt-4 fs-4"><i>Open for freelance projects</i></h5>
         <br/>         

@@ -109,6 +109,44 @@
             "video": "videos/Lifestyle Demo.mp4"  
         }
     ], 
+
+    "ixMedia": 
+    [
+        {
+            "title": "Draw Your Music",
+            "category": "Interactive Media",
+            "language": "Processing",
+            "algorithm": ["Interaction Visualisation", "Deep Vision"],
+            "description": "An interaction visualisation project that turns drawings into music",
+            "img": "images/Draw Your Music/Cover.png",
+            "link": "drawYourMusic",
+            "details": [
+                {
+                    "img": "images/Draw Your Music/Program.png",
+                    "desc": "The program aims to turn drawings into music. Each line drawn on the sketch board is converted into a music note. User can play and interact with the notes by changing the audio speed and volume using either the sliders or hand movements detected by webcam." 
+                }, {
+                    "img": "images/Draw Your Music/Music Note.png",
+                    "title": "Note Customisation Based On Line Characteristics",
+                    "desc": "The music note assigned to each line drawn is determined by the y-coordinate of its starting point. The sketch board is divided horizontally into twelve sections, each representing a musical note from C to B. A note is assigned to the line if its starting point lies within its corresponding section. These notes are synthesised by converting MIDI note numbers into their base frequency using the formula: <i>f = 440 x 2<sup>(n-69)/12</sup>, where n = MIDI note number</i>."
+                }, {
+                    "img": "images/Draw Your Music/Pitch.png",
+                    "title": "Pitch of Note x Thickness of Line",
+                    "desc": "The pitch of each music note is determined by the thickness of the line drawn. It gets lower as the line thickens. When a note is shifted up by an octave, its MIDI note number is increased by 12, and when it is shifted down by an octave, the MIDI note number is decreased by 12. This pattern repeats for each subsequent octave."
+                }, {
+                    "img": "images/Draw Your Music/ADSR Effect.png",
+                    "title": "ADSR Effect x Colour & Length of Line",
+                    "desc": "ADSR effect is applied to the notes based on the colour and length of the line drawn. The attack time (A), sustain level (S) and release time (R) of the note are influenced by the red, green, and blue values in the RGB colour code, whereas the decay or sustain time (D) is affected by the length of the line. These effects are implemented using the Envelope feature from the Processing Sound Library. These features are integrated to create various notes with distinct sounds and characteristics, forming a unique melody dedicated only to its drawing."
+                }, {
+                    "img": "Images/Draw Your Music/Hand Movement.png",
+                    "title": "Audio Interaction via Hand Movement",
+                    "desc": "Beside adjusting the speed and volume of playing notes using the sliders on the toolbar, users can do the same adjustment by moving their hands closer or away from the camera lens. This feature is developed by utilising the YOLO network and visual detection elements provided by the Deep Vision Library. The program calculates the area occupied by the hand on the camera screen and uses the result to modulate the tempo or volume of the notes. The hand that appears on the right side of the camera screen controls the audio volume while the hand on the left screen is responsible for manipulating the audio speed. The larger the area occupied on the screen by the hand, the higher the feature value."
+                }, {
+                    "vid": "videos/Draw Your Music Demo.mp4",
+                    "title": "Demonstration & Explanation Video"
+                }
+            ]   
+        }
+    ],
     
     "game": [
         {
@@ -227,5 +265,5 @@
                 }
             ]   
         }  
-    ] 
+    ]
 }
