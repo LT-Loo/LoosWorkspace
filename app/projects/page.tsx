@@ -38,7 +38,7 @@ export default async function About() {
                                     return (
                                         <div key = {category} className = "p-0 m-0">
                                             <div className = "row px-3 mb-2">
-                                                <h2 id = "category-name" className = "my-2 pt-1">{ category[0].category }</h2>
+                                                <p id = "category-name" className = "my-2 pt-1 fs-3">{ category[0].category }</p>
                                             </div>
                                             <div id = "category" className = "row row-cols-lg-2 row-cols-1 mb-3">
                                                 {
