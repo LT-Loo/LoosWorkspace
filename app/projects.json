@@ -137,7 +137,7 @@
                     "title": "ADSR Effect x Colour & Length of Line",
                     "desc": "ADSR effect is applied to the notes based on the colour and length of the line drawn. The attack time (A), sustain level (S) and release time (R) of the note are influenced by the red, green, and blue values in the RGB colour code, whereas the decay or sustain time (D) is affected by the length of the line. These effects are implemented using the Envelope feature from the Processing Sound Library. These features are integrated to create various notes with distinct sounds and characteristics, forming a unique melody dedicated only to its drawing."
                 }, {
-                    "img": "Images/Draw Your Music/Hand Movement.png",
+                    "img": "images/Draw Your Music/Hand Movement.png",
                     "title": "Audio Interaction via Hand Movement",
                     "desc": "Beside adjusting the speed and volume of playing notes using the sliders on the toolbar, users can do the same adjustment by moving their hands closer or away from the camera lens. This feature is developed by utilising the YOLO network and visual detection elements provided by the Deep Vision Library. The program calculates the area occupied by the hand on the camera screen and uses the result to modulate the tempo or volume of the notes. The hand that appears on the right side of the camera screen controls the audio volume while the hand on the left screen is responsible for manipulating the audio speed. The larger the area occupied on the screen by the hand, the higher the feature value."
                 }, {
